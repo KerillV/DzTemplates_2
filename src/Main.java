@@ -8,7 +8,7 @@ public class Main {
             System.out.println("Случайное число: " + r);
             // Условие выхода из цикла: остановимся, если выпадет число 100
             if (r == MAX_VALUE) {
-                System.out.println("Выпало число 100, давайте на этом закончим");
+                System.out.println("Выпало число " + MAX_VALUE + ", давайте на этом закончим");
                 break;
             }
         }
